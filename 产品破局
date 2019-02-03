@@ -1,0 +1,19 @@
+产品破局
+
+业务解释：代表了应用模型的价值体现
+
+预测前后的业务解释很重要
+
+The general procedure for making labels is:
+* Define the business requirement: predict customers who will churn during a specified period of time
+* Translate the business requirement into a machine learning problem: given historical customer data, build a model to predict which customers will churn depending on several parameters
+* Make labels along with cutoff times corresponding to the machine learning problem: develop functions that take in parameters so the same function can be used for multiple prediction problems.
+* Label all past historical data: parallelize operations by partitioning data into independent subsets
+
+业务价值分析
+1. 用户角色
+2. 使用场景
+3. 解决的核心问题
+4. 业务解释及操作建议
+5. 效果评估及比对
+
